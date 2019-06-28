@@ -1,0 +1,48 @@
+.row {
+    width: 98%;
+    margin: auto;
+}
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: rgb(148, 63, 18);
+    color: white;
+    min-height: 140px;
+    margin-bottom: 2.5%;
+}
+.content {
+    border-radius: 0 0 5px 5px;
+    border: solid lightgrey 1px;
+    padding: 16px;
+}
+#secondaryHeader {
+    border-radius: 5px 5px 0 0;
+    border: solid lightgrey 1px;
+    border-bottom: none;
+    padding: 10px;
+    background-color: #f3f3f3;
+    margin-top: 2.5%;
+}
+input {
+    display: block;
+}
+#searchButton {
+    margin-right: 2em;
+}
+#articleResults {
+    min-height: 90px;
+    padding: 20px;
+    margin-bottom: 2%;
+}
+.articleP {
+    border: solid lightgrey 1px;
+    padding: 10px;
+    width: 100%;
+}
+
+footer {
+text-align: center;
+
+}

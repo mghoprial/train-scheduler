@@ -3,12 +3,83 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Train Time</title>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <!-- Firebase References -->
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.0.4/firebase-database.js"></script>
+
+    <!--jQuery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!--Custom Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+
+
 </head>
 
 <body>
+    <div id="#wrapper">
+        <header class="row">
+            <div class="col-12 header">
+                <h1>Anytime is Train Time</h1>
+
+            </div>
+        </header>
+
+        <div class="row" id="secondaryHeader">
+            Current Train Schedule
+        </div>
+        <div class="row content" id="trainResults">
+        </div>
+    </div>
+
+    <div class="row" id="secondaryHeader">
+        Add Train
+    </div>
+    <form class="row content" style="display: block;">
+        <p>Train Name</p>
+        <p>
+            <input type="text" id="trainName">
+        </p>
+        <p>Destination</p>
+        <p>
+            <input type="text" id="destination">
+        </p>
+        <p>first train</p>
+        <p>
+            <input type="text" id="firstTrain">
+        </p>
+
+        <p>Frequency (min)</p>
+        <p>
+            <input type="" id="frequency">
+        </p>
+
+
+        <p>
+            <button id="submitButton">submit</button><button id="clearButton">Clear Results</button>
+        </p>
+    </form>
+
+
+
+
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#config-web-app -->
+
+    <script>
+        // Your web app's Firebase configuration
+
+    </script>
+
+    <!--App Javascript-->
+    <script type="text/javascript" src="app.js"></script>
+
 
 </body>
 
